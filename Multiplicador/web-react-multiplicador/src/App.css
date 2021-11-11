@@ -1,0 +1,65 @@
+body {
+  background-color: #619dec;
+  text-align: center;
+}
+
+main {
+  padding: 30px 50px;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 80px;
+  border-radius: 8px;
+}
+
+.lineInput {
+  display: grid;
+  margin-bottom: 10px;
+}
+
+input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: 0;
+}
+
+button {
+  border: 0px;
+  padding: 10px;
+  outline: 0;
+  background-color: rgb(39, 122, 255);
+  color: #fff;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: all ease 0.3s;
+}
+
+button:hover{
+  background: rgb(13, 25, 194);
+  padding:15px 100px 15px 100px;
+}
+
+input {
+  text-align: left;
+}
+
+span {
+  text-decoration: underline;
+  color: rgb(77, 86, 207);
+}
+
+h2 {
+  color:black;
+  padding-bottom: 30px;
+}

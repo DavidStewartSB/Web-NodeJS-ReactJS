@@ -1,0 +1,46 @@
+
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.pic-profile{
+  width: 180px;
+  text-align: center;
+  
+}
+
+.card{
+  border: 2px solid rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+
+.title{
+  text-align: center;
+}
+
+body {
+  background-color: #ccc;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+a:hover{
+  color: pink;
+}
