@@ -1,0 +1,33 @@
+{
+   "name": "backend",
+   "version": "1.0.0",
+   "description": "Awesome project developed with TypeORM.",
+   "main": "index.ts",
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "nodemon": "^2.0.15",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "keywords": [
+      "api",
+      "gateway",
+      "javascript"
+    ],
+    "author": "David",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.15.2",
+      "consign": "^0.1.2",
+      "express": "^4.14.0",
+      "express-validator": "^2.20.8",
+      "mysql": "^2.11.1",
+      "restify": "^4.1.1",
+      "soap": "^0.16.0"
+    },
+  
+   "scripts": {
+      "dev": "nodemon src/index.ts",
+      "start": "ts-node src/index.ts"
+   }
+}
